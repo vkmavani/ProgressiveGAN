@@ -2,7 +2,7 @@ import torch
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
-DATASET = "celeba"
+DATASET = "data/celeba"
 SAVE_MODEL = True
 LOAD_MODEL = False
 GEN_CHECKPOINT = "generator.pth"
